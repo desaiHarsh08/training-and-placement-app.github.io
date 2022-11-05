@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+.college-card{
+    /* background-image: url('./images/kdk-college.png'); */
+    height: 500px;
+    /* filter: brightness(90%); */
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/kdk-college.png');
+}
+
+.sidebar{
+    z-index: 999999999999;
+}
+
+footer{
+    z-index: 0;
+}
