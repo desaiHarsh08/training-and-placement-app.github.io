@@ -111,7 +111,7 @@ export const NavBar = () => {
                     {/* Sidebar */}
                     <div id='menu' className='sidebar md:hidden translate-x-[1000px] transition-all duration-700 z-[999999999] w-[97vw] h-screen top-0 right-0 p-5 fixed bg-slate-800 text-white  '>
                         <div className='close m-3' id='close' onClick={closeMenu}>
-                            Close
+                        <i class="fa-solid fa-xmark"></i>
                         </div>
                         <ul className='text-center my-10 text-xl'>
                             <li className='border-b-2 py-3 border-b-slate-400'><a href='/'>Home</a></li>
